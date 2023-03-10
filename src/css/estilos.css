@@ -1,7 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 main:after{
@@ -12,7 +13,7 @@ main:after{
     top: 0;
     left: 0;
     background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.10086455331412103) 50%, rgba(0,0,0,0.9854651162790697) 90%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.10086455331412103) 50%, rgba(0,0,0,0.9854651162790697) 90%);
     z-index: -1;
 }
 
