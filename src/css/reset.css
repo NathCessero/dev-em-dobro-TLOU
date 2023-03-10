@@ -1,0 +1,15 @@
+/* Para comentários em CSS, se usa /* ou, grifar a parte de comentário e digitar CTRL + ; */
+
+*{
+    margin: 0; /* Margem da página */
+    padding: 0;  /* O quanto o texto fica longe da borda */
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none; /* Estilo de lista */
+}
+
+a {
+    text-decoration: none; /* Estilos de texto */
+}
