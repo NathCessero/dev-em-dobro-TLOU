@@ -2,7 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 main:after{
@@ -79,7 +78,6 @@ main:after{
     width: 30px;
     filter: invert(1);
     transition: 0.3s ease-in-out;
-
 }
 
 .menu-lateral .icone:hover{
@@ -99,7 +97,7 @@ main:after{
     height: 100vh;
     object-fit: cover;
     display: none;
-    animation: mudarImagem 0.7s timing-function delay iteration-count direction fill-mode;
+    animation: mudarImagem 0.7s;
 }
 
 .carrossel .imagem.ativa{
